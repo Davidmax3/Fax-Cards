@@ -1,0 +1,533 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(245.45deg, #954d83 0%, #b94eb9 28.9%, #4e1942 75.52%);
+    color: black;
+    width: 100%;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    font-weight: 600;
+}
+header div img {
+    width: 40px;
+    position: absolute;
+    top: 4.5%;
+    left: 7.2%;
+}
+header .logo {
+    text-decoration: none;
+    font-family: monospace;
+    color: black;
+    padding: 50px 0 0 150px;
+    font-size: 35px;
+    font-weight: 600;
+}
+header ul {
+    list-style: none;
+    display: flex;
+}
+.navlist a {
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 40px;
+    margin-left: 10px;
+    color: black;
+    font-size: 20px;
+    font-family: inherit;
+    translate: all .45s ease-in;
+}
+.navlist a:hover {
+    border-bottom: 3px solid black;
+}
+.menu img{
+    display: none;
+    width: 25px;
+    cursor: pointer;
+}
+ 
+section div h4 {
+    font-size: 50px;
+    font-family: fantasy;
+    padding: 90px 0 0 140px;
+
+}
+section div p {
+    display: none;
+}
+section img {
+    width: 25%;
+    position: absolute;
+    top: 33%;
+    left: 62%;
+}
+.start  {
+background-color: #ee0cee;
+width: 8%;
+margin: 250px 0 0 45%;
+padding: 18px 0 18px 48px;
+border: 2px solid black;
+border-radius: 10px;
+}
+.start a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+
+}
+.start:hover {
+    background-color: transparent;
+}
+.start2 {
+    display: none;
+}
+.start3 {
+    display: none;
+}
+.occupy img {
+    display: none;
+}
+@media only screen and (max-width: 1025px) {
+    header {
+        margin-top: 40px;
+    }
+    header .logo {
+        color: black;
+        padding: 60px 0 0 55px;
+    }
+    .navlist a {
+        margin-right: 30px;
+        margin-left: 10px;
+    }
+    header div img {
+        top: 3.5%;
+        left: 2.9%;
+    }
+    section div h4 {
+        font-size: 35px;
+        padding: 150px 0 0 50px;
+    }
+    section img {
+        width: 25%;
+        position: absolute;
+        top: 30%;
+        left: 63%;
+    }
+    .start  {
+        width: 13%;
+        margin: 250px 0 0 45%;
+        padding: 18px 0 18px 48px;
+        border: 2px solid black;
+        border-radius: 10px;
+        }
+}
+@media only screen and (max-width: 920px) {
+    header {
+        margin-top: 50px;
+    }
+    header .logo {
+        color: black;
+        padding: 60px 0 0 55px;
+    }
+    .navlist a {
+        margin-right: 30px;
+        margin-left: 10px;
+    }
+    header div img {
+        top: 4.6%;
+        left: 3.5%;
+    }
+    section div h4 {
+        font-size: 35px;
+        padding: 150px 0 0 40px;
+    }
+    section img {
+        width: 20%;
+        position: absolute;
+        top: 33%;
+        left: 69%;
+    }
+    .start  {
+        width: 12%;
+        margin: 250px 0 0 45%;
+        padding: 18px 0 18px 18px;
+        }
+}
+@media only screen and (max-width: 820px) {
+    header {
+        margin-top: 40px;
+    }
+    header .logo {
+        color: black;
+        padding: 60px 0 0 55px;
+    }
+    .navlist a {
+        margin-right: 20px;
+        margin-left: 10px;
+    }
+    header div img {
+        top: 3.8%;
+        left: 3%;
+    }
+    section div h4 {
+        font-size: 35px;
+        padding: 100px 0 0 50px;
+    }
+    section img {
+        width: 25%;
+        position: absolute;
+        top: 27%;
+        left: 68%;
+    }
+    .start  {
+        width: 13%;
+        margin: 150px 0 0 40%;
+        padding: 18px 0 18px 18px;
+        }
+}
+@media only screen and (max-width: 768px) {
+    header {
+        margin-top: 40px;
+        
+    }
+    header .logo {
+        color: black;
+        font-size: 30px;
+        padding: 65px 0 0 50px;
+    }
+    
+    .navlist a {
+        text-transform: uppercase;
+        margin-right: 20px;
+        margin-left: 10px;
+        font-size: 16px;
+    }
+    header div img {
+        top: 3.9%;
+        left: 4.2%;
+        width: 4%;
+    }
+    section div h4 {
+        font-size: 35px;
+        padding: 100px 0 0 40px;
+    }
+    section img {
+        width: 25%;
+        position: absolute;
+        top: 25%;
+        left: 69%;
+    }
+    .start  {
+        background-color: #ee0cee;
+        width: 15%;
+        margin: 250px 0 0 40%;
+        padding: 18px 0 18px 18px;
+        }
+}
+@media only screen and (max-width: 687px) {
+    header {
+        margin-top: 30px;
+        
+    }
+    header .logo {
+        color: black;
+        font-size: 30px;
+        padding: 65px 0 0 50px;
+    }
+    .menu img{
+        display: block;
+        top: 3%;
+        left: 92%;
+        cursor: pointer;
+    }
+    .navlist {
+        position: absolute;
+        top: 5%;
+        width: 200px;
+        height: 30vh;
+        display: none;
+        background: #752b75;
+        align-items: center;
+        flex-direction: column;
+        padding: 50px 20px;
+        transition: all .55s ease-in;
+    }
+   
+    .navlist a {
+        display: block; 
+        margin-left: 0;
+        text-transform: uppercase;
+        margin-bottom: 70px;
+        font-size: 14px;
+        
+    
+    }
+    .navlist.open {
+        right: 0%;
+        display: flex;
+        position: fixed;
+    }
+   
+    header div img {
+        top: 2.5%;
+        left: 4%;
+        width: 5%;
+    }
+    section div h4 {
+        font-size: 32px;
+        padding: 80px 0 0 40px;
+    }
+    section img {
+        width: 35%;
+        position: absolute;
+        top: 45%;
+        left: 33%;
+    }
+    .start  {
+        width: 14%;
+        margin: 450px 0 0 37%;
+        padding: 18px 48px 18px 48px;
+        }
+        @media only screen and (max-width: 620px) {
+            header {
+                margin-top: 30px;
+                
+            }
+            header .logo {
+                color: black;
+                font-size: 40px;
+                padding: 65px 0 0 50px;
+            }
+            .menu img{
+                display: block;
+                top: 3%;
+                left: 92%;
+                cursor: pointer;
+            }
+            .navlist {
+                position: absolute;
+                top: 5%;
+                width: 200px;
+                height: 30vh;
+                display: none;
+                background: #752b75;
+                align-items: center;
+                flex-direction: column;
+                padding: 50px 20px;
+                transition: all .55s ease-in;
+            }
+           
+            .navlist a {
+                display: block; 
+                margin-left: 0;
+                text-transform: uppercase;
+                margin-bottom: 70px;
+                font-size: 14px;
+                
+            
+            }
+            .navlist.open {
+                right: 0%;
+                display: flex;
+                position: fixed;
+            }
+           
+            header div img {
+                top: 3.9%;
+                left: 4%;
+                width: 7%;
+            }
+            section div h4 {
+                font-size: 32px;
+                padding: 80px 0 0 40px;
+            }
+            section img {
+                width: 35%;
+                position: absolute;
+                top: 58%;
+                left: 33%;
+            }
+            .start  {
+                width: 15.5%;
+                margin: 350px 0 0 37%;
+                padding: 18px 48px 18px 48px;
+                }
+        }
+}
+@media only screen and (max-width: 570px) {
+    header {
+        margin-top: 5px;
+        position: fixed;
+    }
+    header .logo {
+        color: black;
+        font-size: 40px;
+        padding: 65px 0 0 220px;
+    }
+    .menu img{
+        display: block;
+        top: 5%;
+        left: 5%;
+        cursor: pointer;
+    }
+    .navlist {
+        top: 10%;
+        left: 0%;
+        width: 200px;
+        height: 40vh;
+    }
+   
+    .navlist a {
+        margin-bottom: 65px;
+        font-size: 18px;
+        
+    
+    }
+    header div img {
+        top: 3.6%;
+        left: 53.5%;
+        width: 8%;
+    }
+    section div h4 {
+        font-size: 25px;
+        padding: 27% 0 0 20px;
+    }
+    section div p{
+        display: block;
+        font-size: 17px;
+        padding-left: 20px;
+        color: rgb(25, 25, 26);
+        font-weight: 600;
+    }
+    section img {
+        width: 30%;
+        position: absolute;
+        top: 25%;
+        left: 64%;
+    }
+    .start  {
+        display: none;
+        }
+        .start2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            column-gap: 30px;
+            width: 100%;            
+        }
+        .start1 {
+            width: 102px;
+            height: 20px;
+            column-gap: 30px;
+            background: #ee0cee;
+            border: 2px solid #000;
+            border-radius: 10px;
+            padding: 20px 20px 20px 20px;
+            margin-top: 50px;
+        }
+        .start1 a  {
+            text-decoration: none;
+            color: #000;
+        }
+        .start1:hover {
+            background: transparent;
+        }
+        .start3 {
+            display: block;
+            background-color: #ee0cee;
+            width: 112px;
+            height: 20px;
+            padding: 20px 20px 20px 20px;
+            border: 2px solid #000;
+            border-radius: 10px;
+            margin-top: 50px;
+        }
+        .start3 a {
+            text-decoration: none;
+            color: #000;
+        }
+        .start3:hover {
+            background: transparent;
+        }
+        .occupy img {
+            display: block;
+            width: 90%;
+            height: 40%;
+            margin-left: -335px;
+            margin-top: 65%;
+        }
+}
+@media only screen and (max-width: 420px) {
+    header {
+        margin-top: 5px;
+        position: fixed;
+    }
+    header .logo {
+        color: black;
+        font-size: 40px;
+        padding: 65px 0 0 120px;
+    }
+    .menu img{
+        display: block;
+        top: 5%;
+        left: 5%;
+        cursor: pointer;
+    }
+    .navlist {
+        top: 10%;
+        left: 0%;
+        width: 170px;
+        height: 30vh;
+    }
+   
+    .navlist a {
+        margin-bottom: 65px;
+        font-size: 18px;
+        
+    
+    }
+    header div img {
+        top: 0%;
+        left: 35.5%;
+        width: 12%;
+    }
+    section div h4 {
+        font-size: 20px;
+        padding: 35% 0 0 20px;
+    }
+    section div p{
+        display: block;
+        font-size: 17px;
+        padding-left: 20px;
+        color: rgb(25, 25, 26);
+        font-weight: 600;
+    }
+    section img {
+        width: 25%;
+        position: absolute;
+        top: 20%;
+        left: 69%;
+    }
+     
+    .start2 {
+        column-gap: 10px;
+    }
+    .start1 {
+        padding: 15px 20px 15px 20px;
+        margin-top: 20px;
+    }
+ 
+    .start3 {
+        padding: 15px 20px 15px 20px;
+        margin-top: 20px;
+    }
+        .occupy img {
+            width: 90%;
+            height: 33%;
+            margin-left: -263px;
+            margin-top: 75%;
+        }
+}
+

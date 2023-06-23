@@ -1,0 +1,205 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(245.45deg, #954d83 0%, #b94eb9 28.9%, #4e1942 75.52%);
+    font-weight: 200;
+   }
+   header img {
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    width: 70px;
+   }
+   header div {
+    margin-top: 70%;
+   }
+   header div p {
+    font-size: 17px;
+    padding-left: 40px;
+   }
+   header div input {
+    width: 80%;
+    height: 40px;
+    border-radius: 3px;
+    background: transparent;
+    border: 1px solid #000;
+    margin: -60px 0 0 35px;
+  outline: none;
+   }
+   header div a {
+    background-color: rgb(151, 55, 170);
+    width: 82%;
+     
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 3px;
+    margin: 20px 35px;
+    height: 40px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   header div a:hover {
+    background: rgb(172, 58, 187);
+   }
+   header main p {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    padding-left: 40px;
+    padding-right: 40px;
+   }
+   header main p a {
+    text-decoration: none;
+    color: #000;
+   }
+   header main p a:hover {
+    text-decoration: underline;
+   }
+   @media only screen and (min-width: 540px) {
+      header img {
+          left: 45%;
+          top: 15%;
+         }
+         header div {
+          margin-top: 30%;
+         }
+         header div p {
+          font-size: 25px;
+          padding-left: 40px;
+         }
+         header div input {
+          width: 450px;
+          height: 40px;
+          margin: -60px 0 0 45px;
+         }
+         header div a {
+          width: 460px;
+          font-weight: 800;
+          font-size: 30px;
+          margin: 30px 40px;
+          height: 40px;
+         }
+         header main p {
+          font-size: 19px;
+          padding-left: 40px;
+          padding-right: 20px;
+         }
+   }
+   @media only screen and (min-width: 768px) {
+      header img {
+          left: 45%;
+          top: 20%;
+          width: 15%;
+         }
+         header div {
+          margin-top: 45%;
+         }
+         header div p {
+          font-size: 30px;
+          padding-left: 20%;
+         }
+         header div input {
+          width: 60%;
+          height: 40px;
+          margin: -60px 0 0 160px;
+         }
+         header div a {
+          width: 61%;
+          font-weight: 800;
+          font-size: 30px;
+          margin: 30px 160px;
+          height: 40px;
+         }
+         header main p {
+          font-size: 18px;
+          display: flex;
+          justify-content: space-between;
+          font-weight: 500;
+          padding-left: 20%;
+          padding-right: 18%;
+         }
+   }
+   @media only screen and (min-width: 912px) {
+      header img {
+      left: 47%;
+          top: 22%;
+         }
+         header div {
+          margin-top: 60%;
+         }
+         header div p {
+          font-size: 30px;
+          padding-left: 20%;
+         }
+         header div input {
+          width: 60%;
+          height: 40px;
+          margin: -60px 0 0 20%;
+         }
+         header div a {
+          width: 60%;
+          font-weight: 800;
+          font-size: 30px;
+          margin: 30px 20%;
+          height: 40px;
+         }
+         header main p {
+          font-size: 18px;
+          display: flex;
+          justify-content: space-between;
+          font-weight: 500;
+          padding-left: 20%;
+          padding-right: 18%;
+         }
+         header main p a {
+          text-decoration: none;
+          color: rgb(151, 55, 170);
+          padding-right: 20px;
+        
+         }
+   }
+   @media only screen and (min-width: 1200px) {
+      header img {
+      left: 50%;
+          top: 12%;
+          width: 10%;
+         }
+         header div {
+          margin-top: 19%;
+          margin-left: 10%;
+         }
+         header div p {
+          font-size: 30px;
+          padding-left: 35%;
+         }
+         header div input {
+          width: 30%;
+          height: 40px;
+          margin: -60px 0 0 35%;
+         }
+         header div a {
+          width: 30.5%;
+          font-weight: 800;
+          font-size: 30px;
+          margin: 30px 35%;
+          height: 50px;
+         }
+         header main p {
+          font-size: 18px;
+          display: flex;
+          justify-content: space-between;
+          font-weight: 500;
+          padding-left: 41.5%;
+          padding-right: 29.5%;
+         }
+         header main p a {
+          text-decoration: none;
+          color: rgb(151, 55, 170);
+          padding-right: 20px;
+        
+         }
+   }
